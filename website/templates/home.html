@@ -1,0 +1,16 @@
+{% extends "base.html" %} {% block title %}Home{% endblock %} {% block content
+%}
+<br />
+<h1 align="center"><img src="{{url_for('static', filename='plant.png')}}"><br>Welcome {{ user.first_name }} !</h1>
+<p></p>
+<p>Your plant is well watered, last watered on {{ date }}, at {{ time }}. Temp was {{ temp }}. Humidity was {{ hum }}.</p>
+<br />
+<p> </p>
+<br />
+{% include 'myTable.html' %}
+<br />
+<footer>
+    <p>Thank you for working with us!</p>
+    <p> </p>
+</footer>
+{% endblock %}
