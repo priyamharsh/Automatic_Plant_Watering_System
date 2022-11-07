@@ -25,6 +25,6 @@ view all the information about the plant watering. It shows the last watering ti
 the plant along with the temperature, humidity and the weather during that time. It
 also displays all this information for all the other watering times in a tabular format.
 3. Results
-![Raspberry Pi](/home/priyam/repos/Automatic_Plant_Watering_System/images/01.jpeg)
-![Implemented Circuit](/home/priyam/repos/Automatic_Plant_Watering_System/images/1.png)
-![Flask server webpage](/home/priyam/repos/Automatic_Plant_Watering_System/images/2.png)
+![Raspberry Pi](images/01.jpeg)
+![Implemented Circuit](images/1.png)
+![Flask server webpage](images/2.png)
